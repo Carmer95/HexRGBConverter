@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB/Hex Converter</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div id="background-color">
+        <h1>RGB => Hexadecimal<br> 
+            &&<br>
+            Hexadecimal => RGB</h1>
+        <div id="background-div1">
+            <h3>Please input either a Hexadecimal or RGB value:</h3>
+            <p>Examples: #19afAF || 0, 41, 247 </p>
+        </div>
+        <div>
+            <input type="text" name="color-input "id="color-input" placeholder="Enter Hex or RGB value here..."><br></br>
+            <button class="btn-3d-sub" id="convert">Convert!</button>
+        </div>
+        <div>
+            <h3>If you are entering RGB and would like your Hex value with capital letters enter a "U" after the value. E.g. (0, 5, 10, "U").</h3>
+        </div>
+        <div>
+            <h2>RESULT:</h2><input type="text" id="result">
+        </div>
+    </div>
+    <script type="text/javascript" src="./HexRGB.js"></script>
+</body>
+</html>

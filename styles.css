@@ -1,0 +1,84 @@
+
+body {
+    font: 'Arial', serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, rgb(0, 255, 0) , rgb(0, 255, 255));
+}
+
+h1 {
+    font: 500 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+p {
+    width: 100%;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.699);
+    text-transform: none;
+}
+
+h3 {
+    font: 'Arial', serif;
+    width: 100%;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    font-family: Helvetica;
+    border-bottom: 5px solid steelblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: linear-gradient(#5FDDFF,#53ADDF);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px grey;
+    transition: 150ms ease;
+    font-weight: bold;
+  }
+  
+  button:active{
+    border: none;
+    border-bottom: 2px solid steelblue;
+    box-shadow: 0px 1px 5px grey;
+    background: linear-gradient(#53AFFF,#5FCDFF);
+    color: #FFF;
+  }
+  
+  .btn-3d-sub {
+    width: 20%;
+    height: 30px;
+    font-family: Helvetica;
+    border-bottom: 5px solid #173814;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: linear-gradient(#469e3f,#255b20);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px grey;
+    transition: 150ms ease;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .btn-3d-sub:active {
+    border: none;
+    border-bottom: 2px solid steelblue;
+    box-shadow: 0px 1px 5px grey;
+    background: linear-gradient(#255b20,#469e3f);
+    color: #FFF;
+  }
